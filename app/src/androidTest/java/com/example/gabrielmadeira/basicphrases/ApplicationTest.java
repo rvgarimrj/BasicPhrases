@@ -1,4 +1,4 @@
-package com.example.robpercival.basicphrases;
+package com.example.gabrielmadeira.basicphrases;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

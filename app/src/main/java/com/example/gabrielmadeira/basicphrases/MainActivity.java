@@ -1,4 +1,4 @@
-package com.example.robpercival.basicphrases;
+package com.example.gabrielmadeira.basicphrases;
 
 import android.app.Activity;
 import android.media.MediaPlayer;
@@ -7,6 +7,8 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+
+import com.example.gabrielmadeira.basicphrases.R;
 
 
 public class MainActivity extends Activity {
@@ -26,7 +28,7 @@ public class MainActivity extends Activity {
 
         ourId = view.getResources().getResourceEntryName(id);
 
-        int resourceId = getResources().getIdentifier(ourId, "raw", "com.example.robpercival.basicphrases");
+        int resourceId = getResources().getIdentifier(ourId, "raw", "com.example.gabrielmadeira.basicphrases");
 
         MediaPlayer mplayer = MediaPlayer.create(this, resourceId);
         mplayer.start();
